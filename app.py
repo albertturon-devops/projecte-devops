@@ -1,1 +1,2 @@
-print("Hola, aquesta és la meva primera pipeline CI/CD")
+print("Hola GitHub Actions!")
+print("La meva primera pipeline CI/CD funciona!")
