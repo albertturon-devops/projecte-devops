@@ -16,5 +16,11 @@ jobs:
       - name: Comprovar Python
         run: python3 --version
 
+      - name: Instal·lar pytest
+        run: pip install pytest
+
+      - name: Executar tests
+        run: pytest
+
       - name: Executar aplicació
         run: python3 app.py
